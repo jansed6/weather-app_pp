@@ -1,0 +1,30 @@
+.wrapper{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.wrapper h2{
+    font-size: 2rem;
+}
+
+.wrapper > div{
+    font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0rem 1rem 0rem 1rem;    
+}
+
+.wrapper section div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.wrapper span{
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin: auto;
+}
+
