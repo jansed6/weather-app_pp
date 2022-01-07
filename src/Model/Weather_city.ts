@@ -20,7 +20,7 @@ export class Weather_city {
 
     public static async FetchCityWeatherData(city: string) {
         // api key c482ee2e2b72be8c7159e7a121209c66
-        const response = await fetch('http://api.openweathermap.org/data/2.5/weather?q=' + city + ',&units=metric&APPID=c482ee2e2b72be8c7159e7a121209c66');
+        const response = await fetch('https://api.openweathermap.org/data/2.5/weather?q=' + city + ',&units=metric&APPID=c482ee2e2b72be8c7159e7a121209c66');
         return response;
     }
 }
